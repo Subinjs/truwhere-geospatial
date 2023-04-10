@@ -472,14 +472,16 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background-image:linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0)), url("../img/high-bg.jpg");
+  background-position: top left;
+
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(18, 0, 0, 0.406);
   position: absolute;
   bottom: 0;
   top: 0;
