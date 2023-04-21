@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/Business Logo.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,12 +26,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: BizLand - v3.10.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body>
@@ -65,7 +60,16 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/GIS_Mapping.html">GIS Mapping</a></li>
+              <li><a href="/Surveying_And_Aerial_Mapping.html">Surveying and Aerial Mapping</a></li>
+              <li><a href="/GIS_Consultation.html">GIS Consultation</a></li>
+              <li><a href="/GIS_Application_Dev.html">GIS Application Development</a></li>
+              <li><a href="/Utility_Mapping_Management.html">Utility Mapping and Management</a></li>
+              <li><a href="/Land_Use_Planning_Management.html">Land Use Planning and Management</a></li>
+            </ul>
+          </li>
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <li><a class="nav-link scrollto" href="#career">Career</a></li>
@@ -332,7 +336,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Geographic Information System (GIS) Mapping</a></h4>
+              <h4><a href="/GIS_Mapping.html">Geographic Information System (GIS) Mapping</a></h4>
               <p>Customized mapping solutions for businesses and organizations
                 GIS analysis for spatial decision-making
                 GIS database development and management</p>
@@ -342,7 +346,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Surveying and Aerial Mapping</a></h4>
+              <h4><a href="Surveying_And_Aerial_Mapping.html">Surveying and Aerial Mapping</a></h4>
               <p>Boundary Surveys
                 Topographical Surveys
                 Construction Surveys
@@ -357,7 +361,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">GIS Consultation</a></h4>
+              <h4><a href="GIS_Consultation.html">GIS Consultation</a></h4>
               <p>GIS strategic planning
                 Needs assessments
                 GIS training and education</p>
@@ -367,7 +371,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">GIS Application Development</a></h4>
+              <h4><a href="GIS_Application_Dev.html">GIS Application Development</a></h4>
               <p>Customized GIS software development
                 Web-based GIS applications
                 Mobile GIS applications</p>
@@ -377,7 +381,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Utility Mapping and Management</a></h4>
+              <h4><a href="Utility_Mapping_Management.html">Utility Mapping and Management</a></h4>
               <p>Utility mapping for infrastructure planning and management
                 Asset inventory and management
                 Utility data analysis and reporting</p>
@@ -387,7 +391,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Land Use Planning and Management</a></h4>
+              <h4><a href="Land_Use_Planning_Management.html">Land Use Planning and Management</a></h4>
               <p>Land use planning and zoning
                 Environmental impact analysis
                 Land use and resource management planning</p>
@@ -927,9 +931,9 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
+  <footer id="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
